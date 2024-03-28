@@ -16,7 +16,6 @@ function App() {
         <Route path="/Home" element={<Post />} />
 
         <Route path="/" element={<Login />} />
-        <Route path="/explore" element={<Explore />} />
         <Route path="/joinmember" element={<Joinmember />} />
         <Route path="/login" element={<Login />} />
         <Route path="/loginTest" element={<LoginTest />} />
@@ -25,6 +24,7 @@ function App() {
         <Route path="/MyProfile" element={<MyProfile />} />
       </Route>
       <Route path="/*" element={<NotFound />} />
+      <Route path="/explore" element={<Explore />} />
     </Routes>
   );
 }
